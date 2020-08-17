@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+<head>
+    <title> Airbnb New York :: Website</title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+</head>
+<body class="img" background="static/image.jpg">
+
+<div class="container">
+    <form action="\prediction" method="POST">
+
+        <div class="row">
+
+                <!-- Neighbourhood_Group -->
+            <h5 style="font-size:20px;color:Black;"><span>Neighbourhood_group</span></h5>
+                <select name="neighbourhood_group" id="neighbourhood_group" required="required">
+                    <option value="0">Bronx</option>
+                    <option value="1">Brooklyn</option>
+                    <option value="2">Manhattan</option>
+                    <option value="3">Queens</option>
+                    <option value="4">Staten_Island</option>
+                </select>
+            </div>
+
+        <div class="row">
+            <!-- Latitude -->
+            <h5 style="font-size:20px;color:Black;"> Latitude </h5>
+            <input name="'latitude" id="latitude" required="required">
+
+        </div>
+
+        <div class="row">
+            <!-- Longitude -->
+            <h5 style="font-size:20px;color:Black;">Longitude</h5>
+            <input name="'longitude" id="longitude" required="required">
+        </div>
+
+        <div class="row">
+             <!-- Room_Type -->
+             <h5 style="font-size:20px;color:Black;">Room_Types</h5>
+             <select name="room_types" id="room_types" required="required">
+                 <option value="0">Entire Room/Apt</option>
+                 <option value="1">Personal_Room</option>
+                 <option value="2">Shared_Room</option>
+             </select>
+         </div>
+
+        <div class="row">
+            <!-- Minimum_Nights -->
+            <h5 style="font-size:20px;color:Black;">Minimum_Nights</h5>
+            <input name="minimum_nights" id="minimum_nights" required="required">
+        </div>
+
+
+        <div class="row">
+            <!-- Number_of_reviews -->
+            <h5 style="font-size:20px;color:Black;">No_of_reviews</h5>
+            <input name="no_of_reviews" id="no_of_reviews" required="required">
+        </div>
+
+        <div class="row">
+            <!-- Availability -->
+            <h5 style="font-size:20px;color:Black;">Availability</h5>
+            <input name="availability_365" id="availability_365" required="required">
+        </div>
+
+
+
+        <!-- Submit-->
+        <br>
+        <br>
+        <input type="Submit" value="Submit" class="btn btn-secondary">
+    </form>
+        <br>
+        <br>
+    <h3 style="font-size:20px;color:Black;">{{ prediction_text }}</h3>
+
+</div>
+
+</body>
+</html>
