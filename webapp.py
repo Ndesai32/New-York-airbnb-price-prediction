@@ -10,7 +10,7 @@ def home():
     return render_template('index.html')
 
 
-@webapp.route('/prediction', methods=['GET', 'POST'])
+@webapp.route('/prediction', methods=['POST'])
 def predict():
     if request.method == 'POST':
 
