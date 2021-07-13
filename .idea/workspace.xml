@@ -58,34 +58,4 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597752891411">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1597752891411" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1598266884732">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598266884732" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1597757165966">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597757165966" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1597757165966">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597757165966" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1597757165966">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597757165966" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1597757165966">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597757165966" />
-    <state x="186" y="10" key="SettingsEditor" timestamp="1597753721126">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597753721126" />
-  </component>
 </project>
